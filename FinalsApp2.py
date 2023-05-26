@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import streamlit as st
 import tensorflow as tf
 
@@ -52,10 +46,3 @@ else:
                  'Trigonella Foenum-graecum (Fenugreek)']
     string="OUTPUT : "+class_names[np.argmax(prediction)]
     st.success(string)
-
-
-# In[ ]:
-
-
-
-
